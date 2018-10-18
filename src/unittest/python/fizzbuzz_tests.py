@@ -2,9 +2,9 @@ from unittest import TestCase
 from fizzbuzz import fizzBuzz
 
 class fizzBuzzTest(TestCase):
-    def test_if_3_is_fizz(self):
+    def test_if_3_is_lucky(self):
         fizzbuzz = fizzBuzz()
-        self.assertEqual(fizzbuzz.getFizzBuzz(3), 'fizz')
+        self.assertEqual(fizzbuzz.getFizzBuzz(3), 'lucky')
 
     def test_if_9_is_fizz(self):
         fizzbuzz = fizzBuzz()
@@ -83,7 +83,7 @@ class fizzBuzzTest(TestCase):
         fizzbuzz.setFizzBuzzEnd(20)
         fizzbuzz.setList()
         fizzbuzz.makeFizzBuzz()
-        expected = ['11','fizz','13','14','fizzbuzz','16','17','fizz','19','buzz']
+        expected = ['11','fizz','lucky','14','fizzbuzz','16','17','fizz','19','buzz']
         self.assertListEqual(fizzbuzz.num_list, expected)
 
     def test_if_fizzbuzz_returns_a_string(self):
@@ -92,12 +92,12 @@ class fizzBuzzTest(TestCase):
         fizzbuzz.setFizzBuzzEnd(20)
         fizzbuzz.setList()
         fizzbuzz.makeFizzBuzz()
-        expected = '11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz'
+        expected = '11 fizz lucky 14 fizzbuzz 16 17 fizz 19 buzz'
         self.assertEqual(fizzbuzz.makeOutputString(), expected)
         
     def test_if_fizzMyBuzz_returns_correct_format(self):
         fizzbuzz = fizzBuzz()
-        expected = '11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz'
+        expected = '11 fizz lucky 14 fizzbuzz 16 17 fizz 19 buzz'
         self.assertEqual(fizzbuzz.fizzMyBuzz(11,20), expected)
         
     def test_if_fizzMyBuzz_raises_start_exception(self):

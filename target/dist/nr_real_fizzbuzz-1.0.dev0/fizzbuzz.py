@@ -5,7 +5,9 @@ class fizzBuzz:
         self.end = None
 
     def getFizzBuzz(self, val):
-        if val == 0:
+        if '3' in str(val):
+            return 'lucky'
+        elif val == 0:
             return '0'
         elif val%3 == 0 and val%5 == 0:
             return 'fizzbuzz'
