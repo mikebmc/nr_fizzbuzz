@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="7" failures="0" name="fizzbuzz_tests.fizzBuzzTest-20181018144029" skipped="0" tests="9" time="0.003" timestamp="2018-10-18T14:40:29">
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_initialized_with_parameters" time="0.000" timestamp="2018-10-18T14:40:29"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_throws_value_error_for_no_start_value" time="0.000" timestamp="2018-10-18T14:40:29"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_10_is_buzz" time="0.001" timestamp="2018-10-18T14:40:29">
+		<error message="no start or end value passed, please provide both" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 18, in test_if_10_is_buzz
+    fizzbuzz = fizzBuzz()
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/main/python/fizzbuzz.py", line 4, in __init__
+    raise ValueError("no start or end value passed, please provide both")
+ValueError: no start or end value passed, please provide both
+]]>		</error>
+	</testcase>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_15_is_fizzbuzz" time="0.000" timestamp="2018-10-18T14:40:29">
+		<error message="no start or end value passed, please provide both" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 22, in test_if_15_is_fizzbuzz
+    fizzbuzz = fizzBuzz()
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/main/python/fizzbuzz.py", line 4, in __init__
+    raise ValueError("no start or end value passed, please provide both")
+ValueError: no start or end value passed, please provide both
+]]>		</error>
+	</testcase>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_3_is_fizz" time="0.000" timestamp="2018-10-18T14:40:29">
+		<error message="no start or end value passed, please provide both" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 6, in test_if_3_is_fizz
+    fizzbuzz = fizzBuzz()
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/main/python/fizzbuzz.py", line 4, in __init__
+    raise ValueError("no start or end value passed, please provide both")
+ValueError: no start or end value passed, please provide both
+]]>		</error>
+	</testcase>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_4_is_4" time="0.000" timestamp="2018-10-18T14:40:29">
+		<error message="no start or end value passed, please provide both" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 26, in test_if_4_is_4
+    fizzbuzz = fizzBuzz()
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/main/python/fizzbuzz.py", line 4, in __init__
+    raise ValueError("no start or end value passed, please provide both")
+ValueError: no start or end value passed, please provide both
+]]>		</error>
+	</testcase>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_5_is_buzz" time="0.000" timestamp="2018-10-18T14:40:29">
+		<error message="no start or end value passed, please provide both" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 14, in test_if_5_is_buzz
+    fizzbuzz = fizzBuzz()
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/main/python/fizzbuzz.py", line 4, in __init__
+    raise ValueError("no start or end value passed, please provide both")
+ValueError: no start or end value passed, please provide both
+]]>		</error>
+	</testcase>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_9_is_fizz" time="0.000" timestamp="2018-10-18T14:40:29">
+		<error message="no start or end value passed, please provide both" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 10, in test_if_9_is_fizz
+    fizzbuzz = fizzBuzz()
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/main/python/fizzbuzz.py", line 4, in __init__
+    raise ValueError("no start or end value passed, please provide both")
+ValueError: no start or end value passed, please provide both
+]]>		</error>
+	</testcase>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_list_is_initialized" time="0.000" timestamp="2018-10-18T14:40:29">
+		<error message="no start or end value passed, please provide both" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 30, in test_if_fizzbuzz_list_is_initialized
+    fizzbuzz = fizzBuzz()
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/main/python/fizzbuzz.py", line 4, in __init__
+    raise ValueError("no start or end value passed, please provide both")
+ValueError: no start or end value passed, please provide both
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

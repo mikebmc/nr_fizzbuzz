@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" name="fizzbuzz_tests.fizzBuzzTest-20181018141237" skipped="0" tests="1" time="0.001" timestamp="2018-10-18T14:12:37">
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_3_is_fizz" time="0.001" timestamp="2018-10-18T14:12:37">
+		<error message="getFizzBuzz() takes 1 positional argument but 2 were given" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 7, in test_3_is_fizz
+    self.assertEqual(fizzbuzz.getFizzBuzz(3), 'fizz')
+TypeError: getFizzBuzz() takes 1 positional argument but 2 were given
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

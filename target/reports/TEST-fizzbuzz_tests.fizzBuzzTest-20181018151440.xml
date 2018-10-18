@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="fizzbuzz_tests.fizzBuzzTest-20181018151440" skipped="0" tests="14" time="0.001" timestamp="2018-10-18T15:14:40">
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_0_is_0" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_10_is_buzz" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_15_is_fizzbuzz" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_3_is_fizz" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_4_is_4" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_5_is_buzz" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_9_is_fizz" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizbuzz_list_contains_start_to_end" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizbuzz_list_is_reversable" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_list_is_converted_to_fizzbuzz" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_list_is_initialized" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_list_raises_end_exception" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_list_raises_start_exception" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_start_sets" time="0.000" timestamp="2018-10-18T15:14:40"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

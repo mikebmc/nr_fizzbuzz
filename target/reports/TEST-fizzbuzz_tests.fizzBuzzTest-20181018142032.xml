@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="fizzbuzz_tests.fizzBuzzTest-20181018142032" skipped="0" tests="5" time="0.002" timestamp="2018-10-18T14:20:32">
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_10_is_buzz" time="0.000" timestamp="2018-10-18T14:20:32"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_3_is_fizz" time="0.000" timestamp="2018-10-18T14:20:32"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_4_is_4" time="0.000" timestamp="2018-10-18T14:20:32"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_5_is_buzz" time="0.000" timestamp="2018-10-18T14:20:32"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_9_is_fizz" time="0.001" timestamp="2018-10-18T14:20:32">
+		<failure message="'9' != 'fizz'
+- 9
++ fizz
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 11, in test_if_9_is_fizz
+    self.assertEqual(fizzbuzz.getFizzBuzz(9), 'fizz')
+AssertionError: '9' != 'fizz'
+- 9
++ fizz
+
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

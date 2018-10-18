@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" name="unittest.loader._FailedTest-20181018141029" skipped="0" tests="1" time="0.001" timestamp="2018-10-18T14:10:29">
+	<testcase classname="unittest.loader._FailedTest" name="fizzbuzz_tests" time="0.001" timestamp="2018-10-18T14:10:29">
+		<error message="Failed to import test module: fizzbuzz_tests
+Traceback (most recent call last):
+  File &quot;/usr/local/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/loader.py&quot;, line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File &quot;/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py&quot;, line 2, in &lt;module&gt;
+    from fizzbuzz import fizzBuzz
+ImportError: cannot import name 'fizzBuzz'
+" type="ImportError">
+<![CDATA[ImportError: Failed to import test module: fizzbuzz_tests
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/loader.py", line 153, in loadTestsFromName
+    module = __import__(module_name)
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 2, in <module>
+    from fizzbuzz import fizzBuzz
+ImportError: cannot import name 'fizzBuzz'
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

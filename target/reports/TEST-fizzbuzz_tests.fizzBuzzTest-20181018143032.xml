@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" name="fizzbuzz_tests.fizzBuzzTest-20181018143032" skipped="0" tests="8" time="0.002" timestamp="2018-10-18T14:30:32">
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_10_is_buzz" time="0.000" timestamp="2018-10-18T14:30:32"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_15_is_fizzbuzz" time="0.000" timestamp="2018-10-18T14:30:32"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_3_is_fizz" time="0.000" timestamp="2018-10-18T14:30:32"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_4_is_4" time="0.000" timestamp="2018-10-18T14:30:32"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_5_is_buzz" time="0.000" timestamp="2018-10-18T14:30:32"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_9_is_fizz" time="0.000" timestamp="2018-10-18T14:30:32"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_list_is_initialized" time="0.000" timestamp="2018-10-18T14:30:32"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_initialized_with_parameters" time="0.001" timestamp="2018-10-18T14:30:32">
+		<error message="__init__() takes 1 positional argument but 3 were given" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 34, in test_if_fizzbuzz_initialized_with_parameters
+    fizzbuzz = fizzBuzz(1,20)
+TypeError: __init__() takes 1 positional argument but 3 were given
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

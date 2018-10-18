@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="fizzbuzz_tests.fizzBuzzTest-20181018154901" skipped="0" tests="17" time="0.003" timestamp="2018-10-18T15:49:01">
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_0_is_0" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_10_is_buzz" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_15_is_fizzbuzz" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_3_is_fizz" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_4_is_4" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_5_is_buzz" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_9_is_fizz" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizbuzz_list_contains_start_to_end" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizbuzz_list_is_reversable" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_list_is_converted_to_fizzbuzz" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_list_is_initialized" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_list_raises_end_exception" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_list_raises_start_exception" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_returns_a_string" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_start_sets" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_makeFizzBuzz_returns_empty_list" time="0.000" timestamp="2018-10-18T15:49:01"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzMyBuzz_returns_correct_format" time="0.001" timestamp="2018-10-18T15:49:01">
+		<failure message="'' != '11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz'
++ 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 101, in test_if_fizzMyBuzz_returns_correct_format
+    self.assertEqual(fizzbuzz.fizzMyBuzz(11,20), expected)
+AssertionError: '' != '11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz'
++ 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

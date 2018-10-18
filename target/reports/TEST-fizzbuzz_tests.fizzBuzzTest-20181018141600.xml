@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="fizzbuzz_tests.fizzBuzzTest-20181018141600" skipped="0" tests="3" time="0.002" timestamp="2018-10-18T14:16:00">
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_3_is_fizz" time="0.000" timestamp="2018-10-18T14:16:00"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_5_is_buzz" time="0.000" timestamp="2018-10-18T14:16:00"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_10_is_buzz" time="0.001" timestamp="2018-10-18T14:16:00">
+		<failure message="'fizz' != 'buzz'
+- fizz
++ buzz
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 15, in test_if_10_is_buzz
+    self.assertEqual(fizzbuzz.getFizzBuzz(10), 'buzz')
+AssertionError: 'fizz' != 'buzz'
+- fizz
++ buzz
+
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

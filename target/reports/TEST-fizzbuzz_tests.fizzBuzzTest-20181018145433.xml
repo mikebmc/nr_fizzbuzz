@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="fizzbuzz_tests.fizzBuzzTest-20181018145433" skipped="0" tests="11" time="0.002" timestamp="2018-10-18T14:54:33">
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_10_is_buzz" time="0.000" timestamp="2018-10-18T14:54:33"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_15_is_fizzbuzz" time="0.000" timestamp="2018-10-18T14:54:33"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_3_is_fizz" time="0.000" timestamp="2018-10-18T14:54:33"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_4_is_4" time="0.000" timestamp="2018-10-18T14:54:33"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_5_is_buzz" time="0.000" timestamp="2018-10-18T14:54:33"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_9_is_fizz" time="0.000" timestamp="2018-10-18T14:54:33"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizbuzz_list_contains_start_to_end" time="0.000" timestamp="2018-10-18T14:54:33"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_list_is_converted_to_fizzbuzz" time="0.000" timestamp="2018-10-18T14:54:33"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_list_is_initialized" time="0.000" timestamp="2018-10-18T14:54:33"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_fizzbuzz_start_sets" time="0.000" timestamp="2018-10-18T14:54:33"/>
+	<testcase classname="fizzbuzz_tests.fizzBuzzTest" name="test_if_0_is_0" time="0.001" timestamp="2018-10-18T14:54:33">
+		<failure message="'fizzbuzz' != '0'
+- fizzbuzz
++ 0
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/mikebmc/Documents/job_hunting_2018/applications/Intersection/nr_real_fizzbuzz/src/unittest/python/fizzbuzz_tests.py", line 31, in test_if_0_is_0
+    self.assertEqual(fizzbuzz.getFizzBuzz(0), '0')
+AssertionError: 'fizzbuzz' != '0'
+- fizzbuzz
++ 0
+
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
