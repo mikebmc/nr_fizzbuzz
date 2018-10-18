@@ -3,17 +3,29 @@ class fizzBuzz:
         self.num_list = []
         self.start = None
         self.end = None
+        self.int_count = 0
+        self.lucky_count = 0
+        self.fizz_count = 0
+        self.buzz_count = 0
+        self.fizzbuzz_count = 0
 
     def getFizzBuzz(self, val):
-        if val == 0:
+        if '3' in str(val):
+            self.lucky_count += 1
+            return 'lucky'
+        elif val == 0:
             return '0'
         elif val%3 == 0 and val%5 == 0:
+            self.fizzbuzz_count += 1
             return 'fizzbuzz'
         elif val%3 == 0:
+            self.fizz_count += 1
             return 'fizz'
         elif val%5 == 0:
+            self.buzz_count += 1
             return 'buzz'
         else:
+            self.int_count += 1
             return str(val)
 
     def setFizzBuzzStart(self, val):
@@ -40,7 +52,15 @@ class fizzBuzz:
             self.num_list[i] = self.getFizzBuzz(self.num_list[i])
 
     def makeOutputString(self):
-        return ' '.join(self.num_list)
+        ret_string = ' '.join(self.num_list)+' fizz: {} buzz: {} fizzbuzz: {} lucky: {} integer: {}'.format(
+                self.fizz_count,
+                self.buzz_count,
+                self.fizzbuzz_count,
+                self.lucky_count,
+                self.int_count,
+            )
+
+        return ret_string
 
     def fizzMyBuzz(self, start=None, end=None):
         if start == None:

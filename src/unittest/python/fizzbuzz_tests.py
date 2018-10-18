@@ -2,9 +2,9 @@ from unittest import TestCase
 from fizzbuzz import fizzBuzz
 
 class fizzBuzzTest(TestCase):
-    def test_if_3_is_fizz(self):
+    def test_if_3_is_lucky(self):
         fizzbuzz = fizzBuzz()
-        self.assertEqual(fizzbuzz.getFizzBuzz(3), 'fizz')
+        self.assertEqual(fizzbuzz.getFizzBuzz(3), 'lucky')
 
     def test_if_9_is_fizz(self):
         fizzbuzz = fizzBuzz()
@@ -34,6 +34,26 @@ class fizzBuzzTest(TestCase):
         fizzbuzz = fizzBuzz()
         self.assertListEqual(fizzbuzz.num_list, [])
 
+    def test_if_fizzbuzz_int_count_is_initialized(self):
+        fizzbuzz = fizzBuzz()
+        self.assertEqual(fizzbuzz.int_count, 0)
+
+    def test_if_fizzbuzz_lucky_count_is_initialized(self):
+        fizzbuzz = fizzBuzz()
+        self.assertEqual(fizzbuzz.lucky_count, 0)
+
+    def test_if_fizzbuzz_fizz_count_is_initialized(self):
+        fizzbuzz = fizzBuzz()
+        self.assertEqual(fizzbuzz.fizz_count, 0)
+        
+    def test_if_fizzbuzz_buzz_count_is_initialized(self):
+        fizzbuzz = fizzBuzz()
+        self.assertEqual(fizzbuzz.buzz_count, 0)
+        
+    def test_if_fizzbuzz_fizzbuzz_count_is_initialized(self):
+        fizzbuzz = fizzBuzz()
+        self.assertEqual(fizzbuzz.fizzbuzz_count, 0)
+        
     def test_if_fizzbuzz_start_sets(self):
         fizzbuzz = fizzBuzz()
         fizzbuzz.setFizzBuzzStart(1)
@@ -83,7 +103,7 @@ class fizzBuzzTest(TestCase):
         fizzbuzz.setFizzBuzzEnd(20)
         fizzbuzz.setList()
         fizzbuzz.makeFizzBuzz()
-        expected = ['11','fizz','13','14','fizzbuzz','16','17','fizz','19','buzz']
+        expected = ['11','fizz','lucky','14','fizzbuzz','16','17','fizz','19','buzz']
         self.assertListEqual(fizzbuzz.num_list, expected)
 
     def test_if_fizzbuzz_returns_a_string(self):
@@ -92,12 +112,12 @@ class fizzBuzzTest(TestCase):
         fizzbuzz.setFizzBuzzEnd(20)
         fizzbuzz.setList()
         fizzbuzz.makeFizzBuzz()
-        expected = '11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz'
+        expected = '11 fizz lucky 14 fizzbuzz 16 17 fizz 19 buzz fizz: 2 buzz: 1 fizzbuzz: 1 lucky: 1 integer: 5'
         self.assertEqual(fizzbuzz.makeOutputString(), expected)
         
     def test_if_fizzMyBuzz_returns_correct_format(self):
         fizzbuzz = fizzBuzz()
-        expected = '11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz'
+        expected = '11 fizz lucky 14 fizzbuzz 16 17 fizz 19 buzz fizz: 2 buzz: 1 fizzbuzz: 1 lucky: 1 integer: 5'
         self.assertEqual(fizzbuzz.fizzMyBuzz(11,20), expected)
         
     def test_if_fizzMyBuzz_raises_start_exception(self):
@@ -110,10 +130,50 @@ class fizzBuzzTest(TestCase):
             fizzbuzz = fizzBuzz()
             fizzbuzz.fizzMyBuzz(11,None)
 
+    def test_if_fizzbuzz_int_count_is_correct(self):
+        fizzbuzz = fizzBuzz()
+        fizzbuzz.setFizzBuzzStart(11)
+        fizzbuzz.setFizzBuzzEnd(20)
+        fizzbuzz.setList()
+        fizzbuzz.makeFizzBuzz()
+        expected = 5
+        self.assertEqual(fizzbuzz.int_count, expected)
+        
+    def test_if_fizzbuzz_fizz_count_is_correct(self):
+        fizzbuzz = fizzBuzz()
+        fizzbuzz.setFizzBuzzStart(11)
+        fizzbuzz.setFizzBuzzEnd(20)
+        fizzbuzz.setList()
+        fizzbuzz.makeFizzBuzz()
+        expected = 2
+        self.assertEqual(fizzbuzz.fizz_count, expected)
 
+    def test_if_fizzbuzz_buzz_count_is_correct(self):
+        fizzbuzz = fizzBuzz()
+        fizzbuzz.setFizzBuzzStart(11)
+        fizzbuzz.setFizzBuzzEnd(20)
+        fizzbuzz.setList()
+        fizzbuzz.makeFizzBuzz()
+        expected = 1
+        self.assertEqual(fizzbuzz.buzz_count, expected)
 
+    def test_if_fizzbuzz_fizzbuzz_count_is_correct(self):
+        fizzbuzz = fizzBuzz()
+        fizzbuzz.setFizzBuzzStart(11)
+        fizzbuzz.setFizzBuzzEnd(20)
+        fizzbuzz.setList()
+        fizzbuzz.makeFizzBuzz()
+        expected = 1
+        self.assertEqual(fizzbuzz.fizzbuzz_count, expected)
 
-
+    def test_if_fizzbuzz_fizzbuzz_count_is_correct(self):
+        fizzbuzz = fizzBuzz()
+        fizzbuzz.setFizzBuzzStart(11)
+        fizzbuzz.setFizzBuzzEnd(20)
+        fizzbuzz.setList()
+        fizzbuzz.makeFizzBuzz()
+        expected = 1
+        self.assertEqual(fizzbuzz.lucky_count, expected)
 
 
 
