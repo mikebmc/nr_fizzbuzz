@@ -3,6 +3,7 @@ version number: 925cf7f189d1e404cfd55df6e8398d831df0f45a
 
 Contains a class that produces the following for any contiguous range of integers:
 
+* If the number contains a three you must output the text ‘lucky’. This overrides any existing behaviour
 * the number
 * ‘fizz’ for numbers that are multiples of 3
 * ‘buzz’ for numbers that are multiples of 5
